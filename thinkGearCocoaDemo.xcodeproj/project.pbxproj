@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E847636814C4966000C384F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E847636614C4966000C384F8 /* InfoPlist.strings */; };
+		E847636A14C4966000C384F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E847636914C4966000C384F8 /* main.m */; };
+		E847636E14C4966000C384F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E847636C14C4966000C384F8 /* Credits.rtf */; };
+		E847637114C4966000C384F8 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E847637014C4966000C384F8 /* TCAppDelegate.m */; };
+		E847637414C4966000C384F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E847637214C4966000C384F8 /* MainMenu.xib */; };
+		E847637E14C497B000C384F8 /* TCDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E847637C14C497B000C384F8 /* TCDMainViewController.m */; };
+		E847637F14C497B000C384F8 /* TCDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E847637D14C497B000C384F8 /* TCDMainViewController.xib */; };
+		E8AED54714CB4EC7005DC853 /* TCEventGraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AED54314CB4EC7005DC853 /* TCEventGraphController.m */; };
+		E8AED54914CB4EC7005DC853 /* TCReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AED54614CB4EC7005DC853 /* TCReader.m */; };
+		E8AED55714CB4FB1005DC853 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AED55414CB4FA7005DC853 /* CorePlot.framework */; };
+		E8AED55814CB4FB4005DC853 /* CorePlot.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8AED55414CB4FA7005DC853 /* CorePlot.framework */; };
+		E8FF761A14C945FA0078B679 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FF761814C945DA0078B679 /* Cocoa.framework */; };
+		E8FF763014C9490F0078B679 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FF762F14C9490F0078B679 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8AED55314CB4FA7005DC853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AED54A14CB4FA7005DC853 /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = CorePlot;
+		};
+		E8AED55514CB4FA7005DC853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AED54A14CB4FA7005DC853 /* CorePlot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0730F600109492D800E95162;
+			remoteInfo = UnitTests;
+		};
+		E8AED55914CB4FBA005DC853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AED54A14CB4FA7005DC853 /* CorePlot.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = CorePlot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8FF762C14C948E10078B679 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				E8AED55814CB4FB4005DC853 /* CorePlot.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5084B4914BFEA7700EFE436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5084B4B14BFEA7700EFE436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5084B4D14BFEA7700EFE436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E847635B14C4966000C384F8 /* ThinkGearCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkGearCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E847636014C4966000C384F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E847636114C4966000C384F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E847636214C4966000C384F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E847636514C4966000C384F8 /* ThinkGearCocoaDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThinkGearCocoaDemo-Info.plist"; sourceTree = "<group>"; };
+		E847636714C4966000C384F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E847636914C4966000C384F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E847636B14C4966000C384F8 /* ThinkGearCocoaDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkGearCocoaDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E847636D14C4966000C384F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E847636F14C4966000C384F8 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		E847637014C4966000C384F8 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		E847637314C4966000C384F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E847637B14C497B000C384F8 /* TCDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDMainViewController.h; sourceTree = "<group>"; };
+		E847637C14C497B000C384F8 /* TCDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDMainViewController.m; sourceTree = "<group>"; };
+		E847637D14C497B000C384F8 /* TCDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCDMainViewController.xib; sourceTree = "<group>"; };
+		E8AED54214CB4EC7005DC853 /* TCEventGraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEventGraphController.h; sourceTree = "<group>"; };
+		E8AED54314CB4EC7005DC853 /* TCEventGraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEventGraphController.m; sourceTree = "<group>"; };
+		E8AED54514CB4EC7005DC853 /* TCReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCReader.h; sourceTree = "<group>"; };
+		E8AED54614CB4EC7005DC853 /* TCReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCReader.m; sourceTree = "<group>"; };
+		E8AED54A14CB4FA7005DC853 /* CorePlot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CorePlot.xcodeproj; path = "../lib/core-plot/framework/CorePlot.xcodeproj"; sourceTree = "<group>"; };
+		E8FF761814C945DA0078B679 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E8FF762F14C9490F0078B679 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E847635814C4966000C384F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8FF761A14C945FA0078B679 /* Cocoa.framework in Frameworks */,
+				E8FF763014C9490F0078B679 /* QuartzCore.framework in Frameworks */,
+				E8AED55714CB4FB1005DC853 /* CorePlot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5084B3A14BFEA7700EFE436 = {
+			isa = PBXGroup;
+			children = (
+				E8AED54A14CB4FA7005DC853 /* CorePlot.xcodeproj */,
+				E8AED54114CB4EC7005DC853 /* ThinkGearCocoa */,
+				E847636314C4966000C384F8 /* ThinkGearCocoaDemo */,
+				B5084B4814BFEA7700EFE436 /* Frameworks */,
+				B5084B4614BFEA7700EFE436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5084B4614BFEA7700EFE436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E847635B14C4966000C384F8 /* ThinkGearCocoaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5084B4814BFEA7700EFE436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF762F14C9490F0078B679 /* QuartzCore.framework */,
+				E8FF761814C945DA0078B679 /* Cocoa.framework */,
+				B5084B4914BFEA7700EFE436 /* UIKit.framework */,
+				B5084B4B14BFEA7700EFE436 /* Foundation.framework */,
+				B5084B4D14BFEA7700EFE436 /* CoreGraphics.framework */,
+				E847635F14C4966000C384F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E847635F14C4966000C384F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E847636014C4966000C384F8 /* AppKit.framework */,
+				E847636114C4966000C384F8 /* CoreData.framework */,
+				E847636214C4966000C384F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E847636314C4966000C384F8 /* ThinkGearCocoaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E847636F14C4966000C384F8 /* TCAppDelegate.h */,
+				E847637014C4966000C384F8 /* TCAppDelegate.m */,
+				E847637214C4966000C384F8 /* MainMenu.xib */,
+				E847636414C4966000C384F8 /* Supporting Files */,
+				E847637B14C497B000C384F8 /* TCDMainViewController.h */,
+				E847637C14C497B000C384F8 /* TCDMainViewController.m */,
+				E847637D14C497B000C384F8 /* TCDMainViewController.xib */,
+			);
+			path = ThinkGearCocoaDemo;
+			sourceTree = "<group>";
+		};
+		E847636414C4966000C384F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E847636514C4966000C384F8 /* ThinkGearCocoaDemo-Info.plist */,
+				E847636614C4966000C384F8 /* InfoPlist.strings */,
+				E847636914C4966000C384F8 /* main.m */,
+				E847636B14C4966000C384F8 /* ThinkGearCocoaDemo-Prefix.pch */,
+				E847636C14C4966000C384F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8AED54114CB4EC7005DC853 /* ThinkGearCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				E8AED54214CB4EC7005DC853 /* TCEventGraphController.h */,
+				E8AED54314CB4EC7005DC853 /* TCEventGraphController.m */,
+				E8AED54514CB4EC7005DC853 /* TCReader.h */,
+				E8AED54614CB4EC7005DC853 /* TCReader.m */,
+			);
+			path = ThinkGearCocoa;
+			sourceTree = "<group>";
+		};
+		E8AED54B14CB4FA7005DC853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AED55414CB4FA7005DC853 /* CorePlot.framework */,
+				E8AED55614CB4FA7005DC853 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E847635A14C4966000C384F8 /* ThinkGearCocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E847637514C4966000C384F8 /* Build configuration list for PBXNativeTarget "ThinkGearCocoaDemo" */;
+			buildPhases = (
+				E847635714C4966000C384F8 /* Sources */,
+				E847635814C4966000C384F8 /* Frameworks */,
+				E847635914C4966000C384F8 /* Resources */,
+				E8FF762C14C948E10078B679 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AED55A14CB4FBA005DC853 /* PBXTargetDependency */,
+			);
+			name = ThinkGearCocoaDemo;
+			productName = ThinkGearCocoaDemo;
+			productReference = E847635B14C4966000C384F8 /* ThinkGearCocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5084B3C14BFEA7700EFE436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Hulu, LLC";
+			};
+			buildConfigurationList = B5084B3F14BFEA7700EFE436 /* Build configuration list for PBXProject "thinkGearCocoaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5084B3A14BFEA7700EFE436;
+			productRefGroup = B5084B4614BFEA7700EFE436 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E8AED54B14CB4FA7005DC853 /* Products */;
+					ProjectRef = E8AED54A14CB4FA7005DC853 /* CorePlot.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E847635A14C4966000C384F8 /* ThinkGearCocoaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E8AED55414CB4FA7005DC853 /* CorePlot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CorePlot.framework;
+			remoteRef = E8AED55314CB4FA7005DC853 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E8AED55614CB4FA7005DC853 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = E8AED55514CB4FA7005DC853 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E847635914C4966000C384F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E847636814C4966000C384F8 /* InfoPlist.strings in Resources */,
+				E847636E14C4966000C384F8 /* Credits.rtf in Resources */,
+				E847637414C4966000C384F8 /* MainMenu.xib in Resources */,
+				E847637F14C497B000C384F8 /* TCDMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E847635714C4966000C384F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E847636A14C4966000C384F8 /* main.m in Sources */,
+				E847637114C4966000C384F8 /* TCAppDelegate.m in Sources */,
+				E847637E14C497B000C384F8 /* TCDMainViewController.m in Sources */,
+				E8AED54714CB4EC7005DC853 /* TCEventGraphController.m in Sources */,
+				E8AED54914CB4EC7005DC853 /* TCReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8AED55A14CB4FBA005DC853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CorePlot;
+			targetProxy = E8AED55914CB4FBA005DC853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E847636614C4966000C384F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E847636714C4966000C384F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E847636C14C4966000C384F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E847636D14C4966000C384F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E847637214C4966000C384F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E847637314C4966000C384F8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5084B5B14BFEA7700EFE436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5084B5C14BFEA7700EFE436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E847637614C4966000C384F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGearCocoaDemo/ThinkGearCocoaDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "ThinkGearCocoaDemo/ThinkGearCocoaDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E847637714C4966000C384F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGearCocoaDemo/ThinkGearCocoaDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "ThinkGearCocoaDemo/ThinkGearCocoaDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5084B3F14BFEA7700EFE436 /* Build configuration list for PBXProject "thinkGearCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5084B5B14BFEA7700EFE436 /* Debug */,
+				B5084B5C14BFEA7700EFE436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E847637514C4966000C384F8 /* Build configuration list for PBXNativeTarget "ThinkGearCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E847637614C4966000C384F8 /* Debug */,
+				E847637714C4966000C384F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5084B3C14BFEA7700EFE436 /* Project object */;
+}
