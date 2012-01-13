@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5084B4A14BFEA7700EFE436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5084B4914BFEA7700EFE436 /* UIKit.framework */; };
+		B5084B4C14BFEA7700EFE436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5084B4B14BFEA7700EFE436 /* Foundation.framework */; };
+		B5084B4E14BFEA7700EFE436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5084B4D14BFEA7700EFE436 /* CoreGraphics.framework */; };
+		B5084B5414BFEA7700EFE436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5084B5214BFEA7700EFE436 /* InfoPlist.strings */; };
+		B5084B5614BFEA7700EFE436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5084B5514BFEA7700EFE436 /* main.m */; };
+		B5084B5A14BFEA7700EFE436 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5084B5914BFEA7700EFE436 /* TCAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5084B4514BFEA7700EFE436 /* ThinkGearCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkGearCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5084B4914BFEA7700EFE436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5084B4B14BFEA7700EFE436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5084B4D14BFEA7700EFE436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5084B5114BFEA7700EFE436 /* ThinkGearCocoa-Info.plist */ = {isa = PBXFileReference; path = "ThinkGearCocoa-Info.plist"; sourceTree = "<group>"; };
+		B5084B5314BFEA7700EFE436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5084B5514BFEA7700EFE436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5084B5714BFEA7700EFE436 /* ThinkGearCocoa-Prefix.pch */ = {isa = PBXFileReference; path = "ThinkGearCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		B5084B5814BFEA7700EFE436 /* TCAppDelegate.h */ = {isa = PBXFileReference; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		B5084B5914BFEA7700EFE436 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5084B4214BFEA7700EFE436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5084B4A14BFEA7700EFE436 /* UIKit.framework in Frameworks */,
+				B5084B4C14BFEA7700EFE436 /* Foundation.framework in Frameworks */,
+				B5084B4E14BFEA7700EFE436 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5084B3A14BFEA7700EFE436 = {
+			isa = PBXGroup;
+			children = (
+				B5084B4F14BFEA7700EFE436 /* ThinkGearCocoa */,
+				B5084B4814BFEA7700EFE436 /* Frameworks */,
+				B5084B4614BFEA7700EFE436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5084B4614BFEA7700EFE436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5084B4514BFEA7700EFE436 /* ThinkGearCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5084B4814BFEA7700EFE436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5084B4914BFEA7700EFE436 /* UIKit.framework */,
+				B5084B4B14BFEA7700EFE436 /* Foundation.framework */,
+				B5084B4D14BFEA7700EFE436 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5084B4F14BFEA7700EFE436 /* ThinkGearCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B5084B5814BFEA7700EFE436 /* TCAppDelegate.h */,
+				B5084B5914BFEA7700EFE436 /* TCAppDelegate.m */,
+				B5084B5014BFEA7700EFE436 /* Supporting Files */,
+			);
+			path = ThinkGearCocoa;
+			sourceTree = "<group>";
+		};
+		B5084B5014BFEA7700EFE436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5084B5114BFEA7700EFE436 /* ThinkGearCocoa-Info.plist */,
+				B5084B5214BFEA7700EFE436 /* InfoPlist.strings */,
+				B5084B5514BFEA7700EFE436 /* main.m */,
+				B5084B5714BFEA7700EFE436 /* ThinkGearCocoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5084B4414BFEA7700EFE436 /* ThinkGearCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5084B5D14BFEA7700EFE436 /* Build configuration list for PBXNativeTarget "ThinkGearCocoa" */;
+			buildPhases = (
+				B5084B4114BFEA7700EFE436 /* Sources */,
+				B5084B4214BFEA7700EFE436 /* Frameworks */,
+				B5084B4314BFEA7700EFE436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkGearCocoa;
+			productName = ThinkGearCocoa;
+			productReference = B5084B4514BFEA7700EFE436 /* ThinkGearCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5084B3C14BFEA7700EFE436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Hulu, LLC";
+			};
+			buildConfigurationList = B5084B3F14BFEA7700EFE436 /* Build configuration list for PBXProject "ThinkGearCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5084B3A14BFEA7700EFE436;
+			productRefGroup = B5084B4614BFEA7700EFE436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5084B4414BFEA7700EFE436 /* ThinkGearCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5084B4314BFEA7700EFE436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5084B5414BFEA7700EFE436 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5084B4114BFEA7700EFE436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5084B5614BFEA7700EFE436 /* main.m in Sources */,
+				B5084B5A14BFEA7700EFE436 /* TCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5084B5214BFEA7700EFE436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5084B5314BFEA7700EFE436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5084B5B14BFEA7700EFE436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5084B5C14BFEA7700EFE436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5084B5E14BFEA7700EFE436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGearCocoa/ThinkGearCocoa-Prefix.pch";
+				INFOPLIST_FILE = "ThinkGearCocoa/ThinkGearCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5084B5F14BFEA7700EFE436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGearCocoa/ThinkGearCocoa-Prefix.pch";
+				INFOPLIST_FILE = "ThinkGearCocoa/ThinkGearCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5084B3F14BFEA7700EFE436 /* Build configuration list for PBXProject "ThinkGearCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5084B5B14BFEA7700EFE436 /* Debug */,
+				B5084B5C14BFEA7700EFE436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5084B5D14BFEA7700EFE436 /* Build configuration list for PBXNativeTarget "ThinkGearCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5084B5E14BFEA7700EFE436 /* Debug */,
+				B5084B5F14BFEA7700EFE436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5084B3C14BFEA7700EFE436 /* Project object */;
+}
