@@ -310,6 +310,7 @@ static TCReader *TCReaderInstance;
         dispatch_sync(dispatch_get_main_queue(), ^{
             [self postConnectionStateChange];
         });
+        return;
     }
     [self.delegate TCReaderConnectionStateDidChange:self];
 }
@@ -322,6 +323,7 @@ static TCReader *TCReaderInstance;
         dispatch_sync(dispatch_get_main_queue(), ^{
             [self postNewReadEvent:newEvent];
         });
+        return;
     }
     [self.delegate TCReaderDidReadEvent:newEvent];
 }
